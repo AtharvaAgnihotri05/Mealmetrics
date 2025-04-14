@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "995219301989",
+    "project_id": "mealmetrics-bb5cf",
+    "storage_bucket": "mealmetrics-bb5cf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995219301989:android:f98d33f58b53efc4f1088c",
+        "android_client_info": {
+          "package_name": "com.example.mealmetrics"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUx-BR-U3HmeISMve6xwzNP0D5BLn9Wv0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

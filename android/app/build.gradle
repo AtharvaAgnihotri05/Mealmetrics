@@ -1,0 +1,49 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"
+}
+
+apply plugin: 'com.google.gms.google-services'  // ✅ Move this here
+
+android {
+    namespace = "com.example.mealmetrics"
+    compileSdk = 34  // ✅ Set explicitly
+
+    defaultConfig {
+        applicationId = "com.example.mealmetrics"
+        minSdk = 23  // ✅ Minimum required for Flutter Firebase
+        targetSdk = 34
+        versionCode = 1
+        versionName = "1.0.0"
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8
+    }
+
+    buildTypes {
+        release {
+            signingConfig = signingConfigs.debug
+        }
+    }
+}
+
+flutter {
+    source = "../.."
+}
+
+dependencies {
+    // Import the Firebase BoM
+    implementation platform('com.google.firebase:firebase-bom:32.8.0')
+
+    // Firebase dependencies
+    implementation 'com.google.firebase:firebase-auth'
+    implementation 'com.google.firebase:firebase-database'
+    implementation 'com.google.firebase:firebase-firestore'  // ✅ Uncommented
+}

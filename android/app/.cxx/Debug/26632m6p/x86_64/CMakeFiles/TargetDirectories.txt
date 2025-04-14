@@ -1,0 +1,2 @@
+C:/Users/HP/AndroidStudioProjects/mealmetrics/android/app/.cxx/Debug/26632m6p/x86_64/CMakeFiles/edit_cache.dir
+C:/Users/HP/AndroidStudioProjects/mealmetrics/android/app/.cxx/Debug/26632m6p/x86_64/CMakeFiles/rebuild_cache.dir

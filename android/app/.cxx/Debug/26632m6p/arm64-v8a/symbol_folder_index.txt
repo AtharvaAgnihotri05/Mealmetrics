@@ -1,0 +1,1 @@
+C:\Users\HP\AndroidStudioProjects\mealmetrics\build\app\intermediates\cxx\Debug\26632m6p\obj\arm64-v8a
